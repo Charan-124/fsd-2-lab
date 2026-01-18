@@ -9,9 +9,13 @@ function App() {
 
   return (
     <div className={theme}>
-      <h1>Theme & Login using Context API</h1>
-      <ThemeToggle />
-      <Login />
+      <h1>Welcome to App</h1>
+      <div className="theme-container">
+        <ThemeToggle />
+      </div>
+      <div className="auth-container">
+        <Login />
+      </div>
     </div>
   );
 }
